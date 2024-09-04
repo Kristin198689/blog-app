@@ -1,0 +1,50 @@
+
+
+* {margin: 0;
+padding: 0
+;
+box-sizing: border-box;
+}
+.appContainer {
+    background-color: #ef95b5; /* Розовый фон */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #ec407a; /* Темный розовый */
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.navLink {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #ffeb3b; /* Желтый при наведении */
+}
+
+h1 {
+    color: rgb(14, 14, 14);
+}
+
+p {
+    color:slategrey;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
